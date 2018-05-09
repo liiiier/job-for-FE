@@ -3,5 +3,7 @@
 function Person(name, age) {
   this.name = name;
   this.age = age;
+  return this
 }
-const liiiier = new Person('boke', 18)
+const liiiier = Person('boke', 18)
+console.log(liiiier)
